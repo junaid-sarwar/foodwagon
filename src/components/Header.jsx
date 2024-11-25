@@ -3,10 +3,13 @@ import { useNavigate } from 'react-router-dom';
 import HeaderLogo from "../../assets/images/LOGO/header-logo.svg";
 
 function Header() {
-  const navigate = useNavigate(); // Initialize the navigate function
+  const navigate = useNavigate();
 
   const navigateAbout = () => {
     navigate("/about");
+  };
+  const navigateHome = () => {
+    navigate("/");
   };
 
   return (
@@ -36,9 +39,13 @@ function Header() {
             </p>
           </div>
           <div>
+            <button className="btn text-warning fw-bold nav-about" onClick={navigateHome}>
+              Home
+            </button>
             <button className="btn text-warning fw-bold nav-about" onClick={navigateAbout}>
               About us
             </button>
+
           </div>
           <form className="d-flex mt-4 mt-lg-0 ms-lg-auto ms-xl-0">
             <div className="input-group-icon pe-2">

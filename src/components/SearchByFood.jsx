@@ -10,42 +10,43 @@ function SearchByFood() {
   return (
     <section className="search-by-food py-5">
           <div className="row h-100 align-items-center justify-content-center justify-items-center mx-auto">
-            <div className="col-sm-6 col-md-4 col-xl mb-5 h-100 ">
+          <h5 className="fw-bolder fs-2 fs-lg-5 lh-sm text-center text-lg-start">Search by Food</h5>
+            <div className="col-sm-6 col-md-4 col-xl mb-5 h-100 d-flex justify-content-center align-items-center">
               <div className="h-100 rounded-circle"><img className="img-fluid rounded-circle" src={Search1FoodPic} alt="..."/>
                 <div className="card-body ps-0">
                   <h5 className="text-center fw-bold text-1000 text-truncate mb-2">Pizza</h5>
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 col-md-4 col-xl mb-5 h-100">
+            <div className="col-sm-6 col-md-4 col-xl mb-5 h-100 d-flex justify-content-center align-items-center">
               <div className="h-100 rounded-circle"><img className="img-fluid rounded-circle h-100" src={Search2FoodPic} alt="..."/>
                 <div className="card-body ps-0">
                   <h5 className="text-center fw-bold text-1000 text-truncate mb-2">Burger</h5>
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 col-md-4 col-xl mb-5 h-100">
+            <div className="col-sm-6 col-md-4 col-xl mb-5 h-100 d-flex justify-content-center align-items-center">
               <div className="h-100 rounded-circle"><img className="img-fluid rounded-circle h-100" src={Search3FoodPic} alt="..."/>
                 <div className="card-body ps-0">
                   <h5 className="text-center fw-bold text-1000 text-truncate mb-2">Noodles</h5>
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 col-md-4 col-xl mb-5 h-100">
+            <div className="col-sm-6 col-md-4 col-xl mb-5 h-100 d-flex justify-content-center align-items-center">
               <div className="h-100 rounded-circle"><img className="img-fluid rounded-circle h-100" src={Search4FoodPic} alt="..."/>
                 <div className="card-body ps-0">
                   <h5 className="text-center fw-bold text-1000 text-truncate mb-2">Sub-sandwiches</h5>
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 col-md-4 col-xl mb-5 h-100">
+            <div className="col-sm-6 col-md-4 col-xl mb-5 h-100 d-flex justify-content-center align-items-center">
               <div className="h-100 rounded-circle"><img className="img-fluid rounded-circle h-100" src={Search5FoodPic} alt="..."/>
                 <div className="card-body ps-0">
                   <h5 className="text-center fw-bold text-1000 text-truncate mb-2">Chowmein</h5>
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 col-md-4 col-xl mb-5 h-100">
+            <div className="col-sm-6 col-md-4 col-xl mb-5 h-100 d-flex justify-content-center align-items-center">
               <div className="h-100 rounded-circle"><img className="img-fluid rounded-circle h-100" src={Search6FoodPic} alt="..."/>
                 <div className="card-body ps-0">
                   <h5 className="text-center fw-bold text-1000 text-truncate mb-2">Steak</h5>
