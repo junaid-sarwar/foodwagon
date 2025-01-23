@@ -175,9 +175,9 @@
 }
 
 .phone-image {
-    max-width: 100%;
+    max-width: 78%;
     height: auto;
-    display: block;
+    display: flex;
 }
 
 /* BEST DEAL SANDWICHES */
